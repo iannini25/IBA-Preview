@@ -128,10 +128,10 @@ export default function Home() {
             <p className="mt-6 text-base text-neutral-700 sm:text-lg">
               Please contact{' '}
               <a
-                href="mailto:hello@ibanetwork.org.br"
+                href="mailto:info@ibanetwork.org"
                 className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
               >
-                hello@ibanetwork.org.br
+                info@ibanetwork.org
               </a>
               .
             </p>
