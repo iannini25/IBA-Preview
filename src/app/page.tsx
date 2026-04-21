@@ -4,18 +4,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <header className="border-b border-neutral-200">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4 sm:py-5">
+        <div className="mx-auto flex max-w-4xl items-center justify-center px-6 py-5 sm:py-6">
           <Image
             src="/logo-dark.png"
             alt="IBA — Innovation Business Alliance"
-            width={96}
-            height={96}
+            width={160}
+            height={160}
             priority
-            className="h-16 w-16 object-contain sm:h-20 sm:w-20"
+            className="h-28 w-28 object-contain sm:h-36 sm:w-36"
           />
-          <p className="text-xs font-medium uppercase tracking-[0.12em] text-primary-600">
-            🌍 Brazil · Ireland · UK
-          </p>
         </div>
       </header>
 
@@ -100,14 +97,43 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-14 border-t border-neutral-200 pt-8">
-            <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
-              Coming soon
+          <div className="mt-14 border-t border-neutral-200 pt-10">
+            <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-primary-600">
+              Current Phase
             </span>
-            <p className="mt-3 max-w-2xl text-base text-neutral-700 sm:text-lg">
-              Our full platform — events, trade missions and a proprietary
-              network for cross-border FinTech collaboration — is under
-              construction. Follow us to be the first to know when we launch.
+            <div className="mt-4 space-y-5 text-base text-neutral-700 sm:text-lg">
+              <p>
+                The IBA Association is currently operating in a discreet,
+                invitation-led phase in Brazil as we prepare for formal
+                registration.
+              </p>
+              <p>
+                At this stage, a select group of members is actively
+                collaborating to shape the Association&apos;s global strategy,
+                structure, and long-term direction.
+              </p>
+              <p>
+                Access to the broader membership will open following the rollout
+                of our platform. While no official launch date has been
+                announced yet, this next phase will be carefully introduced.
+              </p>
+              <p>
+                In the meantime, those interested in staying close to the
+                initiative are invited to join our WhatsApp group and follow our
+                LinkedIn page, where key updates and developments will be
+                shared.
+              </p>
+            </div>
+
+            <p className="mt-6 text-base text-neutral-700 sm:text-lg">
+              Please contact{' '}
+              <a
+                href="mailto:hello@ibanetwork.org.br"
+                className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
+              >
+                hello@ibanetwork.org.br
+              </a>
+              .
             </p>
           </div>
 
