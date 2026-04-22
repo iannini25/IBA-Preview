@@ -166,6 +166,35 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mt-14 border-t border-neutral-200 pt-10">
+            <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-primary-600">
+              Current Phase
+            </span>
+            <div className="mt-4 space-y-4 text-base text-neutral-700 sm:text-lg">
+              <p>
+                The IBA Association is currently operating in a discreet,
+                invitation-led phase in Brazil as we prepare for formal
+                registration.
+              </p>
+              <p>
+                At this stage, a select group of members is actively
+                collaborating to shape the Association&apos;s global strategy,
+                structure, and long-term direction.
+              </p>
+            </div>
+
+            <p className="mt-6 text-base text-neutral-700 sm:text-lg">
+              For inquiries about membership please contact{' '}
+              <a
+                href="mailto:Memberships@ibanetwork.org"
+                className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
+              >
+                Memberships@ibanetwork.org
+              </a>
+              .
+            </p>
+          </div>
+
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-sm">
             <a
               href="https://www.linkedin.com/company/innovationbusinessalliance"
@@ -191,7 +220,7 @@ export default function Home() {
           <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
             Contact
           </span>
-          <dl className="mt-4 grid gap-4 text-sm sm:grid-cols-3">
+          <dl className="mt-4 grid gap-4 text-sm sm:grid-cols-2 lg:grid-cols-5">
             <div>
               <dt className="text-xs uppercase tracking-wide text-neutral-500">
                 General
@@ -207,14 +236,14 @@ export default function Home() {
             </div>
             <div>
               <dt className="text-xs uppercase tracking-wide text-neutral-500">
-                Business Development
+                Partnerships
               </dt>
               <dd className="mt-1">
                 <a
-                  href="mailto:business@ibanetwork.org"
+                  href="mailto:Partnerships@ibanetwork.org"
                   className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
                 >
-                  business@ibanetwork.org
+                  Partnerships@ibanetwork.org
                 </a>
               </dd>
             </div>
@@ -228,6 +257,32 @@ export default function Home() {
                   className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
                 >
                   events@ibanetwork.org
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt className="text-xs uppercase tracking-wide text-neutral-500">
+                Memberships
+              </dt>
+              <dd className="mt-1">
+                <a
+                  href="mailto:Memberships@ibanetwork.org"
+                  className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
+                >
+                  Memberships@ibanetwork.org
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt className="text-xs uppercase tracking-wide text-neutral-500">
+                Contents
+              </dt>
+              <dd className="mt-1">
+                <a
+                  href="mailto:Contents@ibanetwork.org"
+                  className="font-medium text-primary-600 underline decoration-1 underline-offset-4 hover:text-primary-700"
+                >
+                  Contents@ibanetwork.org
                 </a>
               </dd>
             </div>
