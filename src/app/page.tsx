@@ -23,77 +23,31 @@ export default function Home() {
           </span>
 
           <h1 className="mt-6 font-serif text-4xl font-medium leading-[1.1] tracking-tightish text-neutral-900 sm:text-5xl lg:text-6xl">
-            A global platform connecting Brazil FinTech to Ireland and the UK
-            financial markets.
+            An invitation-led, non-commercial network connecting fintech
+            leaders across Brazil, Ireland, and the UK for insight and trusted
+            relationship building.
           </h1>
-
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
-            <div>
-              <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
-                🚀 Vision
-              </span>
-              <p className="mt-3 text-base text-neutral-700 sm:text-lg">
-                A global FinTech platform fostering innovative and sustainable
-                business developments.
-              </p>
-            </div>
-            <div>
-              <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
-                🚀 Mission
-              </span>
-              <p className="mt-3 text-base text-neutral-700 sm:text-lg">
-                Empower FinTechs to innovate and trade sustainably across
-                borders.
-              </p>
-            </div>
-          </div>
 
           <div className="mt-14 border-t border-neutral-200 pt-10">
             <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-primary-600">
-              💡 What we do
+              About IBA
             </span>
-            <p className="mt-3 max-w-2xl text-base text-neutral-700 sm:text-lg">
-              We help Brazil FinTechs connect to Ireland and UK financial
-              ecosystems by partnering with institutions that foster global
-              business development.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-10 md:grid-cols-2">
-            <div>
-              <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
-                🤝 In the IBA you&apos;ll find
-              </span>
-              <ul className="mt-4 space-y-3 text-base text-neutral-700 sm:text-lg">
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-primary-600" />
-                  <span>Global innovation trends and regulatory insights.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-primary-600" />
-                  <span>Global collaboration, trade missions and gatherings.</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-neutral-500">
-                🔗 Join the movement
-              </span>
-              <ul className="mt-4 space-y-3 text-base text-neutral-700 sm:text-lg">
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent-500" />
-                  <span>Social Media</span>
-                </li>
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent-500" />
-                  <span>Events &amp; Trade Missions</span>
-                </li>
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent-500" />
-                  <span>Proprietary Platform (stealth)</span>
-                </li>
-              </ul>
+            <div className="mt-4 space-y-5 text-base text-neutral-700 sm:text-lg">
+              <p>
+                IBA is an invitation-led, non-commercial network connecting
+                fintech leaders across Brazil, Ireland, and the United Kingdom.
+              </p>
+              <p>
+                It exists to enable trusted dialogue, cross-border insight, and
+                relationship building among senior professionals shaping
+                financial services across these markets.
+              </p>
+              <p>
+                IBA does not facilitate commercial transactions, advisory
+                services, or business introductions. It is independent,
+                neutral, and focused solely on ecosystem understanding and
+                knowledge exchange.
+              </p>
             </div>
           </div>
 

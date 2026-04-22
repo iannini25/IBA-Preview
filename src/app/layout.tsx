@@ -18,7 +18,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: 'IBA Network — Innovation Business Alliance',
   description:
-    'A global platform connecting Brazil FinTech to Ireland and the UK financial markets.',
+    'An invitation-led, non-commercial network connecting fintech leaders across Brazil, Ireland, and the UK for insight and trusted relationship building.',
   robots: { index: true, follow: true },
   authors: [{ name: 'Bernardo Iannini' }],
   creator: 'Bernardo Iannini',
